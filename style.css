@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    font-size: 18px;
+}
+
+div >{
+    margin-bottom: 10%;
+}
+.top{
+    background-image: url(images/bg-hero-desktop.svg);
+    background-size: 200px;
+    margin-bottom: 50px;
+    padding:20px;
+    
+    box-shadow: 40px;
+}
+.hea{
+    text-align: left;
+}
+.sec{
+    background-color: white;
+    margin-bottom: 50px;
+    padding:10px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    /* border-radius: 10px; */
+    box-shadow: 40px;
+    width: 100%;
+}
+.logo{
+    width: 30%;
+    margin-right: 35%;
+    left: 4px;
+
+    /* margin-left: 0px; */
+    
+}
+.gre{
+    border-radius: 10px;
+    width: 25%;
+    font-size: bold;
+    /* height: 25px; */
+    background-color: white;
+    font-weight: bold;
+}
+.bill{
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.top p{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.get{
+    width: 200px;
+    border-radius: 200px;
+    border:none;
+    font-size: 20px;
+    background-color: hsl(322, 100%, 66%);
+    padding: 5px;
+}
+.gee{
+    border-radius: 150px;
+    border:none;
+    font-size: 20px;
+    background-color: hsl(322, 100%, 66%);
+    padding: 5px;
+    width: 80%;
+    margin-top: 10px;
+    position: relative;
+}
+.mock{
+    margin-top: 40px;
+    width: 250px;
+}
+.container{
+    position: relative;
+}
+
+.user{
+    /* background-size: 250px; */
+    /* margin: auto; */
+    padding:10px;
+    height: 20px;
+    z-index: 1;
+    margin-bottom: 40px;
+    width: 70%;
+    position: relative;
+
+}
+.user p{
+    padding-bottom: 100px;
+}
+.emp{
+        /* height: 100px; */
+        width: 90%;
+        position: absolute;
+        top: -25%;
+        left: 5%;
+        background-color: white;
+        border-radius: 20px;
+    height: 150px;
+    margin: auto;
+        /* background-color: white; */
+    /* margin-bottom: 50px; */
+    padding:10px;
+    /* border: 2px solid whitesmoke; */
+    /* border-radius: 10px; */
+    /* border-radius: 10px; */
+    box-shadow: 40px;
+    /* width: 100%; */
+    text-align: center;
+   
+      
+}
+.logo2{
+    width: 40%;
+    margin-bottom: 20px;
+}
+.clo h4{
+    color: black;
+}
+.desktop{
+    height: 450px;
+    background-image: url(images/bg-hero-desktop.svg);
+}
+.clo{
+    color: whitesmoke;
+    margin-top: 50px;
+    width: 100%;
+    padding-top: 34%;
+    text-align: left;
+    position: relative;
+    background-color: hsl(192, 100%, 9%);
+}
+.add{
+    display: flex;
+    margin-top: 0px;
+
+}
+.a{
+    
+    margin-right: 20px;
+    /* margin-bottom: 10px; */
+    padding-left: 5px;
+}
+
+
+
+@media screen and (min-width:375px){
+    body{
+        /* flex-direction: row; */
+        width: 100%;
+        /* display: none; */
+    }
+    
+   .bill{
+       width: 20%vw;
+       text-align: left;
+   }
+   .mock{
+       z-index: 1;
+       position: absolute;
+       top: 17%;
+       left: 800px;
+   }
+   .con{
+       position: relative;
+       left: 950px;
+   }
+   .grow{
+       position: relative;
+       width: 25vw;
+       left: 4%;
+   }
+   .sec{
+       flex-direction: row;
+       position: relative;
+    
+   }
+   .toge{
+       position: absolute;
+       top: 0%;
+    
+       left: 70%;
+   }
+   
+    .hew{
+        text-align: left;
+        flex-direction: row;
+        /* align-content: flex-start; */
+    }
+    .hea{
+        flex-direction: row;
+    }
+    /* .bill{
+        width: 300px;
+        text-align: left;
+    }  */
+    div{
+        /* width: 50%; */
+    }
+    .flow{
+        /* z-index: 1;
+        position: relative;
+       top: 75%;
+        margin-left: 3%; */
+    
+            z-index: 1;
+            position: absolute;
+            top: 100%;
+            left: 100px;
+    
+    }
+    .clo{
+        margin-top: 100px;
+        width: 100%;
+        padding-top: 0;;
+    }
+    .emp{
+        z-index: 1;
+        position: relative;
+        bottom: 100px;
+        width: 60%;
+    }
+    .logo{
+        margin-top: ;
+    }
+    div{
+        margin: 0px;
+    }
+
+
+}
